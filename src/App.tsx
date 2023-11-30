@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import { VideoList, VideoItem } from './components/task1/VideoList/VideoList';
+import List from './components/task2/List/List';
+import { listArticleAndVideo, ArticleAndVideoProps } from './components/task2/data/ArticleAndVideoProps';
 
 /**
  * Главный компонент приложения
@@ -38,6 +40,8 @@ function App(): JSX.Element {
       date: '2023-11-30 14:09:00'
     },
   ]);
+
+  const [list2, setList2] = useState<ArticleAndVideoProps[]>(listArticleAndVideo);
   
   return (
     <>
@@ -51,7 +55,7 @@ function App(): JSX.Element {
       <VideoList list={list} />
 
       {/* Компонент задачи №2 */}
-      {/* < /> */}
+      <List list={list2} />
 
       {/* Компонент задачи №3 */}
       {/* < /> */}
