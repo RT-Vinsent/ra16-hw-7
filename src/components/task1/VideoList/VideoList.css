@@ -2,12 +2,12 @@
   font-family: 'Mina', sans-serif;
 } */
 
-.video-content {
+/* #root {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 .video {
   box-sizing: content-box;
