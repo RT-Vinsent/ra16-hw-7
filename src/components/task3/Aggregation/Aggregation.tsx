@@ -50,6 +50,7 @@ export default class Aggregation extends React.Component {
 
     return (
       <div className='container'>
+        <h2>«Агрегация данных для таблиц»</h2>
         <div className="wrapper-content">
           {/* Передача данных в компоненты таблиц */}
           
