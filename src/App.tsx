@@ -11,8 +11,8 @@ import AggregationProps from './components/task3/Aggregation/Aggregation';
  * @returns {JSX.Element} - Основной элемент приложения
  */
 function App(): JSX.Element {
-  const [list, setList] = useState<VideoItem[]>(listVideo);
-  const [list2, setList2] = useState<ArticleAndVideoProps[]>(listArticleAndVideo);
+  const [list] = useState<VideoItem[]>(listVideo);
+  const [list2] = useState<ArticleAndVideoProps[]>(listArticleAndVideo);
   
   return (
     <>
