@@ -4,6 +4,7 @@ import VideoList from './components/task1/VideoList/VideoList';
 import { listVideo, VideoItem } from './components/task1/data/VideoProps';
 import List from './components/task2/List/List';
 import { listArticleAndVideo, ArticleAndVideoProps } from './components/task2/data/ArticleAndVideoProps';
+import AggregationProps from './components/task3/Aggregation/Aggregation';
 
 /**
  * Главный компонент приложения
@@ -28,7 +29,7 @@ function App(): JSX.Element {
       <List list={list2} />
 
       {/* Компонент задачи №3 */}
-      {/* < /> */}
+      <AggregationProps />
       
       {/* Просто подвал */}
       <footer className='footer'><p>Просто подвал</p></footer>

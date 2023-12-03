@@ -1,0 +1,40 @@
+/* body {
+  font-family: 'Mina', sans-serif;
+} */
+
+/* #app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+/* #app > div {
+  width: 250px;
+  margin: 10px;
+} */
+
+.table-wrap {
+  width: 250px;
+  margin: 10px;
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgba(69, 115, 152, 0.99);
+  padding: 5px;
+}
+
+.table-wrap tr td:first-child {
+  text-align: left;
+  /* padding-left: 10%; */
+}
